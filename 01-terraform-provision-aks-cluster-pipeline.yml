@@ -31,10 +31,10 @@ stages:
             backendType: 'azurerm'
             backendServiceArm: 'terraform-aks-azurerm-svc-con'
             ensureBackend: true
-            backendAzureRmResourceGroupName: 'terraform-storage-rg'
+            backendAzureRmResourceGroupName: 'terraform-storage-rgg'
             backendAzureRmResourceGroupLocation: 'eastus'
-            backendAzureRmStorageAccountName: 'terraformstatexlrwdrzs'
-            backendAzureRmContainerName: 'tfstatefiles'
+            backendAzureRmStorageAccountName: 'terraformstatexlrwdrzsg'
+            backendAzureRmContainerName: 'tfstatefilesg'
             backendAzureRmKey: 'aks-base.tfstate'
             allowTelemetryCollection: false
         - task: TerraformCLI@0
